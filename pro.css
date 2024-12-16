@@ -1,0 +1,302 @@
+.nav{
+    list-style-type: none;
+    display: block;
+    width: auto;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+.nav > li{
+    padding: 18px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+}
+
+.nav > li:hover{
+    border: 1px solid rgb(237, 237, 237);
+    background-color: rgb(237, 237, 237);
+    border-radius: 10px;
+}
+
+.nav > li > i{
+    font-size: 20px;
+}
+
+.nav > li > span{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#bars{
+    padding-top: 0px;
+}
+
+#bars:hover{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+#bars > i{
+    padding: 12px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+#bars > i:hover{
+    border: 1px solid rgb(230, 229, 229);
+    background-color: rgb(230, 229, 229);
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    margin-left: 6%;
+    background-color: white;
+}
+
+
+.upper-part{
+   display: flex;
+   align-items: center;
+   gap: 9%;
+}
+
+
+.youtube{
+    font-size:30px;
+}
+
+.youtube > i{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #ff0000;
+}
+
+.search{
+    display: flex;
+}
+
+#search-bar{
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 25px 0 0 25px;
+    border: 1px solid rgb(196, 195, 195);
+    width: 550px;
+    padding-left: 17px;
+}
+
+#magnifying-glass{
+    border-left: 0px;
+    border-radius: 0 25px 25px 0;
+    border: 1px solid rgb(196, 195, 195);
+    border-left: 0px;
+    background-color: rgb(242, 241, 241);
+}
+
+#magnifying-glass > i{
+    font-size: 22px;
+    padding: 10px 20px;
+}
+
+.dp{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin-left: 20%;
+}
+
+.h-button{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    height: 45px;
+    width: 58px;
+    background-color: white;
+}
+
+.h-button:hover{
+    background-color: rgb(237, 237, 237);
+    border: 1px solid rgb(237, 237, 237);
+}
+
+#video{
+    font-size: 16px;
+}
+
+#bell{
+    font-size: 22px
+}
+
+.middle{
+    display: flex;
+    gap: 3%;
+}
+
+.right-circles{
+    display: flex;
+    gap: 8%;
+}
+
+#mic{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    height: 45px;
+    width: 67px;
+    font-size: 20px;
+}
+
+#mic:hover{
+    background-color: rgb(226, 225, 225);
+    border: 1px solid  rgb(226, 225, 225);
+}
+
+
+.buttons{
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+    padding-bottom: 2.5%;
+}
+
+.buttons > button{
+    padding: 10px;
+    border: 1px solid rgb(242, 241, 241);
+    background-color: rgb(242, 241, 241);
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.buttons > button:hover{
+    border: 1px solid rgb(230, 229, 229);
+    background-color: rgb(230, 229, 229);
+}
+
+.buttons > button:active{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+
+.thumbnail{
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.thumbnail > div{
+    margin-bottom: 25px;
+}
+
+.thumbnail > div > img{
+    width: 400px;
+    height: 250px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+.thumbnail > div > img:hover{
+    border-radius: 0px;
+}
+
+.profile-pic{
+    display: flex;
+    gap: 20px;
+    margin-top: 5px;
+}
+
+.profile-pic > img{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+.profile-pic > p{
+    margin-top: 0px;
+}
+
+.title{
+   font-weight: 600;
+}
+
+#dot{
+    font-size: 25px;
+    margin-left: 7px;
+}
+
+.user-info{
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(79, 78, 78);
+}
+
+.shorts > div > img{
+    width: 240px;
+    height: 430px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+.shorts{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 8%;
+    margin-bottom: 60px ;
+}
+
+.sub-title{
+    display: flex;
+    margin-top: 5px;
+}
+
+.sub-title > p{
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-left: 5px;
+}
+
+.head{
+    font-weight: 600;
+}
+
+ .views{
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 15px;
+ }
+
+#shorts-dot{
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+
+.s-heading{
+    margin-left: 6%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.s-heading > i{
+    margin-right: 10px;
+    margin-left: 25px;
+    color: red;
+    font-size: 20px;
+}
+
+.youtube > span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
